@@ -2,6 +2,7 @@ name: work-report
 description: 隐私优先的工作报告助手。支持多项目管理、智能纠错、可视化建议、Markdown表格存储。
 version: 2.0.0
 trigger: "记录|周报|日报|月报|汇报|导出|配置|修改|删除"
+license：MIT
 
 # 🎯 角色定义
 
