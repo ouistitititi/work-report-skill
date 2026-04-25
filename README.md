@@ -1,2 +1,93 @@
-# work-report-skill
-AI工作报告技能 - 对话记录工作，按需生成周报月报，支持多项目管理、智能纠错、可视化建议、Markdown表格存储。极简高效，拒绝废话，让工作报告不再繁琐。AI Work Report Skill - Record work via conversation, generate weekly and monthly reports on demand. Features multi-project management, smart correction, visualization suggestions, and Markdown table storage. 
+# Work Report Skill
+
+隐私优先的工作报告助手。支持多项目管理、智能纠错、可视化建议、Markdown表格存储。
+
+## ✨ 功能特性
+
+- 📝 **对话式记录** - 通过自然对话记录工作内容
+- 🗂️ **多项目管理** - 自动识别项目标记，支持合并/拆分生成报告
+- 🔧 **智能纠错** - 语义回溯，修改/删除历史记录
+- 📊 **可视化建议** - 检测数据自动建议生成图表
+- ⚡ **极简高效** - 拒绝废话，Token节省
+- 🔒 **隐私优先** - 数据存储在用户指定位置
+
+## 📦 安装使用
+
+### 方式一：直接使用
+
+将 `work-report-skill` 文件夹放入你的 Agent 技能目录中，即可被 Agent 加载使用。
+
+### 方式二：作为参考
+
+阅读 `SKILL.md` 文件了解 Skill 的编写规范和最佳实践。
+
+## 🚀 快速开始
+
+### 1. 记录工作
+
+```
+[项目A] 完成需求文档初稿
+修复登录Bug #项目B
+参加部门周会
+```
+
+### 2. 生成报告
+
+```
+生成周报
+```
+
+### 3. 智能纠错
+
+```
+把昨天的登录改成注册
+删除前天那个会议的记录
+```
+
+## 📂 文件结构
+
+```
+work-report-skill/
+├── SKILL.md              # Skill核心文件（必读）
+├── README.md             # 项目说明
+├── LICENSE               # 开源许可证
+├── CHANGELOG.md          # 版本更新日志
+├── .gitignore           # Git忽略配置
+├── examples/            # 示例文件
+│   ├── 示例工作记录.md
+│   └── 示例周报.md
+└── docs/                # 详细文档
+    └── 使用指南.md
+```
+
+## 📖 文档
+
+- [SKILL.md](./SKILL.md) - Skill核心定义文件
+- [使用指南](./docs/使用指南.md) - 详细使用说明
+- [示例文件](./examples/) - 工作记录和报告示例
+
+## 🔧 配置说明
+
+首次使用时，Skill会引导你完成以下配置：
+
+| 配置项 | 说明 |
+|--------|------|
+| 存储位置 | 工作记录和报告的存放目录 |
+| 报告格式 | Markdown / Word / PPT |
+| 详细程度 | 极简版 / 标准版 / 深度版 |
+| 自定义模板 | 是否有公司固定模板 |
+
+## 📋 版本历史
+
+- **v2.0.0** - 多项目管理、智能纠错、可视化建议
+- **v1.0.0** - 初始版本
+
+详见 [CHANGELOG.md](./CHANGELOG.md)
+
+## 🤝 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+## 📄 许可证
+
+[MIT License](./LICENSE)
